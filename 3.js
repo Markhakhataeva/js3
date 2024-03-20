@@ -361,6 +361,13 @@
 // let f=k.concat(d)
 // console.log(f)
 
+// const numbers=[1,2,3,4,5,6,7,8]
+// const number=[1,2,3]
+// let n=numbers.concat(number)
+// console.log(n)
+
+
+
 
 
 
@@ -375,13 +382,17 @@
 
 // console.log(dnumbers)
 
-// const str=["banana","apple","orange"]
-// const strs=str.map(function(word){
+//  const str=["banana","apple","orange"]
+//  const strs=str.map(function(word){
 //     return word
-// }
-// )
+//  }
+//  )
 
-// console.log(strs)
+//  console.log(strs)
+
+
+
+
 
 
 
@@ -396,11 +407,11 @@
 
 
 
-// const str=["banana","apple","orange"]
+//  const str=["banana","apple","orange"]
 // const strs=str.map(function(word){
 //     console.log(word)
 // }
-//     )
+//      )
 
 
 
@@ -436,11 +447,6 @@
 
 
 
-
-
-
-
-
 ///reduce
 
 
@@ -470,15 +476,6 @@
 
 
 
-
-
-// const numbers=[1,2,3,4,5];
-// const dnumbers=numbers.reduce(function(accum){
-//     return accum %2===0;
-
-// },0
-// )
-// console.log(dnumbers)
 
 
 
@@ -517,9 +514,9 @@
 
 /////find
 
-// const numbers=[1,2,3,4,5];
+// const numbers=[1,2,3,4,5,11]; 
 // const num=numbers.find(function(number){
-//     return number %2===0;
+//      return number >10;
 
-// })
-// console.log(num)
+//  })
+//  console.log(num)
